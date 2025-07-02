@@ -1,10 +1,8 @@
 <?php
 
 // MYSQL Credentials
-$host = "";
-$user = "";
-$password = "";
-$database = "";
+global $host, $database, $user, $password;
+include 'config.inc.php';
 
 $dsn = "mysql:host=$host;dbname=$database;charset=utf8mb4";
 
